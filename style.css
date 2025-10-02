@@ -41,7 +41,7 @@ body {
     outline: none;
 }
 
-.magic.active {
+.magic:active {
     box-shadow: none;
     transform: translateY(2px);
 }
@@ -64,7 +64,7 @@ body {
 }
 
 /* Animação de rotação nas caixas */
-.box.big .box {
+.boxes.big .box {
     transform: rotateZ(360deg);
 }
 
@@ -101,5 +101,5 @@ body {
     left: 8px;
     height: 15px;
     width: 100%;
-    transform: skewY(45deg);
+    transform: skewX(45deg);
 }
